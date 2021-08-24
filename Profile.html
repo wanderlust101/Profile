@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <title>Profile Page</title>
+  </head>
+  <body>
+    <div class="nav">
+      <h1 class="nav-title">Profile</h1>
+      <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#" class="active">My Profile</a></li>
+        <li><a href="#">Find Connections</a></li>
+        <li><button class="btn">Sign Out</button></li>
+      </ul>
+    </div>
+    <div class="profile">
+      <div class="col-1">
+        <div class="user-card">
+          <img id="user" src="jane-m.jpg" alt="user" />
+          <h1>Jane Doe</h1>
+          <div class="location">
+            <img id="map" src="map-marker.png" alt="map" />
+            <h3>Seattle</h3>
+          </div>
+          <div>
+            <p>Developer | Engineer | Problem Solver</p>
+            <p>Master of shadows and the Internet!</p>
+          </div>
+          <div class="edit">
+            <img id="gear" src="gear.png" alt="gear" />
+            <a href="">edit profile</a>
+          </div>
+        </div>
+        <div class="education">
+          <h3>Education</h3>
+          <h2>Coding Dojo - Full Stack Bootcamp</h2>
+          <h4>Dec 2019 - Marc 2020</h4>
+          <p>Triple black belt in Python, MERN, and C#...</p>
+        </div>
+      </div>
+      <div class="col-2">
+        <div class="requests">
+          <h3>Connection Requests</h3>
+          <div class="todd">
+            <img class="face" src="todd-s.jpg" alt="Todd" />
+            <p>Todd E</p>
+            <img class="circle" src="accept-circle.png" alt="accept" />
+            <img class="circle" src="close-circle.png" alt="close" />
+          </div>
+          <div class="phil">
+            <img class="face" src="phil-s.jpg" alt="Phil" />
+            <p>Phil K</p>
+            <img class="circle" src="accept-circle.png" alt="accept" />
+            <img class="circle" src="close-circle.png" alt="close" />
+          </div>
+        </div>
+        <div class="your">
+          <h3>Your Connections</h3>
+          <ul>
+            <li>
+              <img class="face" src="adrien-s.jpg" alt="Adrien" />
+              <p>Adrien D</p>
+            </li>
+            <li>
+              <img class="face" src="anne-s.jpg" alt="Anne" />
+              <p>Anne J</p>
+            </li>
+            <li>
+              <img class="face" src="alayne-s.jpg" alt="Alayne" />
+              <p>Alayne T</p>
+            </li>
+            <li>
+              <img class="face" src="arry-s.jpg" alt="Arry" />
+              <p>Arry Y</p>
+            </li>
+          </ul>
+          <a href="">View More</a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
